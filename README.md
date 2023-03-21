@@ -1,1 +1,1 @@
-# Pikachu-API
+Get data pokomon call a pikachu and show in the web using asynchronous javascript and AJAX
