@@ -13,7 +13,8 @@
             box-sizing: border-box;
         }
 
-        html,body{
+        html,
+        body {
             height: 100%;
             width: 100%;
             display: flex;
@@ -23,9 +24,10 @@
 
         .card {
             background: goldenrod;
-            padding: 2em 2em;
-            width: 400px;
+            padding: 2em 6em;
             text-align: center;
+            color: whitesmoke;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -35,9 +37,13 @@
         <h1>Get Pikachu</h1>
     </div>
     <div class="card">
-        <span id="number">25</span>:<span id="name">pokomen</span>
+        <p>
+            <span id="number">25</span> : <span id="name">pokomen</span>
+        </p>
         <img id="image" src="" alt="">
-        <h4 id="type">electric</h4>
+        <p>
+            <span>Type : </span><span id="type">electric</span>
+        </p>
     </div>
     <script>
 
